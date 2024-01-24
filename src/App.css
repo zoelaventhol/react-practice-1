@@ -11,6 +11,7 @@ input {
 
 .form-inputs {
   text-align: right;
+  width: 60%;
   margin: auto;
 }
 
@@ -20,9 +21,16 @@ form {
   margin: auto;
   width: 33%;
   padding: 1em 2em 1em 1em;
+  border: 2px solid gray;
 }
 
 button {
   border-radius: 5px;
   font-size:large
+}
+
+.form-btn {
+  padding: .5em;
+  margin-bottom: 1.5em;
+  /* background-color: rgb(188, 251, 230) */
 }

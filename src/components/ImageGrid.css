@@ -1,7 +1,8 @@
 .ImageGrid {
     /* center it on the page */
-    width: 70%;
+    /* width: 70%; */
     margin: 5% auto;
+    width: 50%
 }
 
 .grid {
@@ -20,6 +21,8 @@ img {
     object-fit: cover;
     /* round the corners */
     border-radius: 10%;
+    /* center images in their columns */
+    margin: auto;
 }
 
 .buttons {

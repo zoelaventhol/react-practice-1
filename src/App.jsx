@@ -7,6 +7,7 @@ function App() {
   // STATE
   const [form, setForm] = useState(emptyForm)
   const [images, setImages] = useState([])
+  const [showForm, setShowForm] = useState(false)
 
   // FUNCTIONS/SCRIPTS
   
@@ -45,6 +46,11 @@ function App() {
       <h1>Picture time! 📸</h1>
       
       {/* FORM */}
+      <button className = "form-btn" onClick={()=>setShowForm(!showForm)}>
+        {showForm ? "Hide form 🙈" : "Add images! 🖼️"}
+      </button>
+      
+      {showForm && 
       <form onSubmit={handleSubmit}>
         <div className='form-inputs'>
           <label htmlFor='title'>Title: </label>
@@ -54,6 +60,7 @@ function App() {
             onChange={handleChange}
           />
           <br />
+          
           <label htmlFor='url'>URL: </label>
           <input 
             name='url'
@@ -63,7 +70,7 @@ function App() {
         </div>
 
         <button>Submit</button>
-      </form>
+      </form>}
       {/* END FORM */}
       
       {/* Pass "images" to ImageGrid as a prop */}
