@@ -1,23 +1,14 @@
 .ImageGrid {
-    /* set it up as a grid with 3 columns, and a gap between images */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5em;
-    
     /* center it on the page */
-    width: 50%;
+    width: 70%;
     margin: 5% auto;
 }
 
-.image-grid {
+.grid {
     /* set it up as a grid with 3 columns, and a gap between images */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
-    
-    /* center it on the page */
-    width: 50%;
-    margin: auto;
 }
 
 img {
@@ -29,4 +20,21 @@ img {
     object-fit: cover;
     /* round the corners */
     border-radius: 10%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    margin-bottom: 2em;
+    margin-left:.5em;
+}
+
+.active {
+    color: red;
+    border: 2px solid red;
+}
+
+.big {
+    height: 200px; 
 }

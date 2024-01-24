@@ -21,3 +21,8 @@ form {
   width: 33%;
   padding: 1em 2em 1em 1em;
 }
+
+button {
+  border-radius: 5px;
+  font-size:large
+}
