@@ -24,7 +24,7 @@ Review and practice basic React concepts, including:
 - Conditional styling
 
 We will do this by creating a simple form to display images from URLs, and to be able to make those images larger or smaller by clicking buttons.
-![image](demo_screenshots/step-6b.png)
+![image](demo_screenshots/step-5b.png)
 
 ## Tasks
 
@@ -85,10 +85,10 @@ Whichever size is "active" should be clear in the button styling. i.e. If your i
 - Add a conditional class to your `<img>` tags: if "isBig" is true, it should have the `.big` class and should appear larger.
 
 Small:
-![image](demo_screenshots/step-5a.png) 
+![image](demo_screenshots/step-4a.png) 
 
 Big:
-![image](demo_screenshots/step-5b.png)
+![image](demo_screenshots/step-4b.png)
 
 ### Step 5: Conditional rendering
 _Concepts: event listeners, useState, JSX_
@@ -104,7 +104,7 @@ Finally, let's clarify our button text: when the form is hidden, the button shou
 - Add a ternary expression around your button text: if your `showForm` is true, the button should read "Hide form". If `showForm` is false, it should say "Add images!"
 
 Hidden form:
-![image](demo_screenshots/step-6a.png)
+![image](demo_screenshots/step-5a.png)
 
 With form:
-![image](demo_screenshots/step-6b.png)
+![image](demo_screenshots/step-5b.png)
