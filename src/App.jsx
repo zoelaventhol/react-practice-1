@@ -10,6 +10,9 @@ function App() {
   // TEMPLATE
   return (
     <div className="App">
+      <h1>
+        Hey there! 👋
+      </h1>
     </div>
   );
 }
