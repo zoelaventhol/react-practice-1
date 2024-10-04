@@ -1,9 +1,5 @@
-import React from 'react'
-
 export default function ImageGrid() {
+  // JS: state, function etc.
 
-  return (
-    <div className = "ImageGrid">
-    </div>
-  )
+  return <div className="ImageGrid"></div>;
 }
